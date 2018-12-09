@@ -248,6 +248,11 @@ h1 {
     font-size: 1rem !important;
 }
 }
+.v2-alert {
+  padding: 0.5rem 1rem;
+  background-color: #10113d;
+  font-size: 0.9rem;
+}
 
 input[type='range'] {
   -webkit-appearance: none;
@@ -736,4 +741,4 @@ a:hover {
     background-color: rgba(0, 150, 255, 0.1);
 }
 
-/*# sourceMappingURL=app.e5636738e9fdf9921ddb1b59b2b2659c.css.map*/
+/*# sourceMappingURL=app.11ec89daec53a991b3f7c47284e4a61f.css.map*/
