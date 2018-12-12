@@ -1,21 +1,5 @@
-# reddit
+# reddit-user-analyser
 
-> A Vue.js project
+A tool to analyse a Reddit user.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+I made this in early 2017 to familiarise myself with front-end view library concepts and didn't really know what the hell I was doing. I am planning to remake this entirely with React, add many more features and improve the performance/UX based on the things I've learnt in web development over the past 2 years. Stay tuned!
