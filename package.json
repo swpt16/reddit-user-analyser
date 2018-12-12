@@ -6,7 +6,7 @@
   "private": true,
   "homepage": "https://atomiks.github.io/reddit-user-analyser",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
