@@ -4,6 +4,7 @@
   "description": "A Vue.js project",
   "author": "atomiks <na@gmail.com>",
   "private": true,
+  "homepage": "https://atomiks.github.io/reddit-user-analyser",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "dev": "node build/dev-server.js",
