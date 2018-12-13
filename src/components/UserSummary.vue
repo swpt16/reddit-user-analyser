@@ -36,7 +36,7 @@
             <div class="center">
               <img class="section-illustration" src="../assets/textcomplexity.png">
             </div>
-            <h3>Text complexity</h3>
+            <h3>Text Readability</h3>
             <p>Calculated with the Flesch Formula</p>
             <p class="gradient-uppercase">{{textComplexity}}</p>
           </div>
