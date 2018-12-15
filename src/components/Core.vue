@@ -58,30 +58,10 @@
 <script>
 import UserSummary from 'components/UserSummary'
 
-$(function() {
-  $.ripple('.btn', {
-    debug: false, // Turn Ripple.js logging on/off
-    on: 'mousedown', // The event to trigger a ripple effect
-
-    opacity: 0.2, // The opacity of the ripple
-    color: '#61efa7', // Set the background color. If set to "auto", it will use the text color
-    multi: true, // Allow multiple ripples per element
-
-    duration: 1, // The duration of the ripple
-
-    // Filter function for modifying the speed of the ripple
-    rate: function(pxPerSecond) {
-      return pxPerSecond
-    },
-
-    easing: 'linear' // The CSS3 easing function of the ripple
-  })
-})
-
 export default {
   name: 'core',
   components: {
-    UserSummary
+    UserSummary,
   },
   data() {
     return {
@@ -94,8 +74,8 @@ export default {
       noPosts: false,
       finished: {
         comments: false,
-        submitted: false
-      }
+        submitted: false,
+      },
     }
   },
   mounted() {
@@ -118,7 +98,7 @@ export default {
     finishedLoading() {
       if (!this.comments.length && !this.submitted.length) return
       return this.finished.comments && this.finished.submitted
-    }
+    },
   },
   methods: {
     reset() {
@@ -161,7 +141,7 @@ export default {
         .get(
           `https://www.reddit.com/user/${
             this.username
-          }/${type}.json?limit=100&after=${after}`
+          }/${type}.json?limit=100&after=${after}`,
         )
         .then(response => {
           let arr = response.body.data.children
@@ -203,8 +183,8 @@ export default {
             this.isLoading = false
           }
         })
-    }
-  }
+    },
+  },
 }
 </script>
 

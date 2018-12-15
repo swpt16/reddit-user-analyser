@@ -11,5 +11,5 @@ Vue.use(VueResource)
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App }
+  components: { App },
 })
