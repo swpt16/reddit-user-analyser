@@ -1,5 +1,14 @@
-# reddit-user-analyser
+# Reddit User Analyser 2
 
-A tool to analyse a Reddit user.
+WIP
 
-I made this in early 2017 to familiarise myself with front-end view library concepts and didn't really know what the hell I was doing. I am planning to remake this entirely with React, add many more features and improve the performance/UX based on the things I've learnt in web development over the past 2 years. Stay tuned!
+## Install
+
+```bash
+npm i
+npm start
+```
+
+## Data cache
+
+While working on features in development, go to `src/App.js` and change `useCache = false &&` to `useCache = true &&` when wanting to use the data cache (`u/spez`) instead of searching for a user each time..
